@@ -1,0 +1,39 @@
+body {
+    background-color: #1F2937;
+    font-size:48px extra-bold;
+    font-family: #F9FA48;
+
+
+}
+
+.flex-header {
+
+    margin-top: 0px;
+    margin-bottom:0px;
+    height: 300px;
+
+}
+
+.flex-midtop {
+
+    background: white;
+    margin-top: 0px;
+    height: 300px;
+
+}
+
+.flex-midbottom {
+
+    background: #E5E7EB;
+    margin-top: 0px;
+    height: 300px;
+
+}
+
+.flex-bottom {
+
+    background: white;
+    margin-top: 0px;
+    height: 200px;
+
+}
