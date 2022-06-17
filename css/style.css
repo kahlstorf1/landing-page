@@ -83,14 +83,80 @@ body {
     background: white;
     margin-top: 0px;
     height: 350px;
+    color:black;
+    font: #1F2937;
+    font-size: 36px;
+    font-weight:bolder;
+    text-align:center;
+    padding: 1px;
+
 }
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+.flex-box * {
+    border:3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width:150px;
+    font-size:18px;
+    font-weight: 100;
+
+}
+
+.flex-box-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+.flex-box-text * {
+    height: 150px;
+    width:150px;
+    font-size:18px;
+    font-weight: 100;
+    position: relative;
+
+}
+
+
+
+/* End of Section 2 // Start of Section 3 */
 
 .flex-three {
 
     background: #E5E7EB;
+    color:black;
     margin-top: 0px;
     height: 350px;
+    width:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.quote {
+    font-family: #1F2937;
+    font-size:36px;
+    text-align: left;
+    vertical-align: middle;
+    height: 250px;
+    width:70%;
+    margin-top:5%;
+}
+
+.thor {
+    text-align: right;
+    width:70%;
+    height: 50%;
+}
+
+/*End of Section 3 // Start of Section 4 */
 
 .flex-four {
     background: white;
