@@ -82,7 +82,7 @@ body {
 .flex-two {
     background: white;
     margin-top: 0px;
-    height: 350px;
+    height: 400px;
     color:black;
     font: #1F2937;
     font-size: 36px;
@@ -101,8 +101,8 @@ body {
 .flex-box * {
     border:3px solid #3882F6;
     border-radius: 10px;
-    height: 150px;
-    width:150px;
+    height: 155px;
+    width:155px;
     font-size:18px;
     font-weight: 100;
 
@@ -115,11 +115,11 @@ body {
 }
 
 .flex-box-text * {
-    height: 150px;
-    width:150px;
+    height: 155px;
+    width:155px;
     font-size:18px;
     font-weight: 100;
-    position: relative;
+    text-align: center;
 
 }
 
@@ -132,7 +132,7 @@ body {
     background: #E5E7EB;
     color:black;
     margin-top: 0px;
-    height: 350px;
+    height: 300px;
     width:auto;
     display: flex;
     align-items: center;
@@ -160,4 +160,41 @@ body {
 
 .flex-four {
     background: white;
+    height:100px;
+    width:auto;
+    padding:75px 0;
+}
+
+.action-bar {
+    background:#3882F6;
+    color:white;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 120px;
+    margin: 0 15%;
+    padding:0 10%;
+}
+
+.action-text {
+    font-family: #f9faf9;
+    font-size:18px;
+}
+
+.action-sub-text {
+    font-family: #f9faf9;
+    font-size: 18px;
+}
+
+.action-button {
+    background:#3882F6;
+    color:white;
+    height:30px;
+    width: 90px;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    
 }
